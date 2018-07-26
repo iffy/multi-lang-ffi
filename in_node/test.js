@@ -17,3 +17,4 @@ function trylib(path) {
 trylib("../c_dynamic_lib/libhello")
 trylib("../c_shared_lib/libhello")
 trylib("../go_shared_lib/libecho")
+trylib("../rust_shared_lib/target/release/libhello")

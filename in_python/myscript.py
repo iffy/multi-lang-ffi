@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from ctypes import cdll
 
 def trylib(path):
@@ -11,3 +12,4 @@ def trylib(path):
 trylib("../c_dynamic_lib/libhello.dylib")
 trylib("../c_shared_lib/libhello.so")
 trylib("../go_shared_lib/libecho.so")
+trylib("../rust_shared_lib/target/release/libhello.dylib")
