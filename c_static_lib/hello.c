@@ -1,5 +1,5 @@
 #include <stdio.h>
 void printHelloWorld(void)
 {
-    printf("Hello World!\n");
+    printf("Hello from C static lib!\n");
 }

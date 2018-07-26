@@ -1,0 +1,10 @@
+[package]
+name = "hello"
+version = "0.1.0"
+authors = ["Matt Haggard <haggardii@gmail.com>"]
+
+# [dependencies]
+
+[lib]
+name = "hello"
+crate-type = ["dylib"]
