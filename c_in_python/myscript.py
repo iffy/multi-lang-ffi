@@ -13,10 +13,3 @@ try:
     lib.printHelloWorld()
 except Exception as e:
     print(e)
-
-try:
-    lib = cdll.LoadLibrary("../c_static_lib/libhello.a")
-    print 'static'
-    lib.printHelloWorld()
-except Exception as e:
-    print(e)
