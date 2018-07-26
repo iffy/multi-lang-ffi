@@ -1,2 +1,6 @@
 hellobin
 libhello.dylib
+libhello.a
+hello.o
+hello-static
+hello-dyn
